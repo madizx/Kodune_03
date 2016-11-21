@@ -9,6 +9,6 @@ double kogus, hind, importMaks;
 		this.importMaks=importMaks;
 	}	
 	public double sisseostuHind(){
-		return kogus*hind+importMaks;
+		return kogus*hind*importMaks;
 	}
 }
